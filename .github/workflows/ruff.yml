@@ -3,7 +3,8 @@ name: ruff
 on:
   push:
     branches:
-      - main
+      - master
+      - dev
     paths-ignore: 
       - 'development/**'
 

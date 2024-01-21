@@ -3,7 +3,7 @@ name: black
 on:
     push:
       branches:
-        - main
+        - master
       paths-ignore: 
         - 'development/**'
   
