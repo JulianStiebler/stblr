@@ -1,1 +1,0 @@
-venv\Scripts\activate.bat & python -b stblr.py
