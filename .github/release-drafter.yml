@@ -2,25 +2,25 @@ name-template: 'v$RESOLVED_VERSION 🌈'
 tag-template: 'v$RESOLVED_VERSION'
 categories:
   - title: '🚀 Added Features'
-    collapse-after: 3
+    collapse-after: 2
     label: 'feature'
   - title: '🔑 Better Security'
-    collapse-after: 3
+    collapse-after: 2
     label: 'security'
   - title: '🐛 Bug Fixes'
-    collapse-after: 3
+    collapse-after: 2
     label: 'bug'
   - title: '🐢 Optimization'
-    collapse-after: 3
+    collapse-after: 2
     label: 'optimization'
   - title: '🧰 Dependency Changes'
-    collapse-after: 3
+    collapse-after: 2
     label: 'dependency'
   - title: '⚡ Workflow Changes'
-    collapse-after: 3
+    collapse-after: 2
     label: 'workflow'
   - title: '📝 Documentation Changes'
-    collapse-after: 3
+    collapse-after: 2
     label: 'documentation'
 
 autolabeler:
