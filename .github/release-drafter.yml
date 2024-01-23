@@ -11,11 +11,9 @@ categories:
       - 'bugfix'
       - 'bug'
   - title: '🧰 Dependency Update'
-    label: 'dep'
-autolabeler:
-  - label: 'bug'
-    title:
-      - '/fix/i'
+    label: 'dependency'
+  - title: '⚡ Workflow Update'
+    label: 'workflow'
 
 change-template: '- $TITLE @$AUTHOR (#$NUMBER)'
 change-title-escapes: '\<*_&' # You can add # and @ to disable mentions, and add ` to disable code blocks.
@@ -30,6 +28,23 @@ version-resolver:
     labels:
       - 'patch'
   default: patch
+
+autolabeler:
+  - label: 'bug'
+    title:
+      - 'fix'
+      - 'bug'
+  - label: 'feature'
+    title:
+      - 'feature'
+  - label: 'dependency'
+    title:
+      - 'dep'
+      - 'dependency'
+  - label: 'workflow'
+    title:
+      - 'workflow'
+
 template: |
   ## Changes
 
