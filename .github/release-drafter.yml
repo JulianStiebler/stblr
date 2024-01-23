@@ -2,14 +2,19 @@ name-template: 'v$RESOLVED_VERSION 🌈'
 tag-template: 'v$RESOLVED_VERSION'
 categories:
   - title: '🚀 Features'
+    collapse-after: 5
     label: 'feature'
   - title: '🐛 Bug Fixes'
+    collapse-after: 5
     label: 'bug'
   - title: '🧰 Dependency Changes'
+    collapse-after: 5
     label: 'dependency'
   - title: '⚡ Workflow Changes'
+    collapse-after: 5
     label: 'workflow'
   - title: '📝 Documentation Changes'
+    collapse-after: 5
     label: 'documentation'
 
 autolabeler:
