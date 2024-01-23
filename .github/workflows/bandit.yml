@@ -13,10 +13,10 @@
 name: Bandit
 on:
   push:
-    branches: [ "dev", "master" ]
+    branches: [ "master", "master-patch" ]
   pull_request:
     # The branches below must be a subset of the branches above
-    branches: [ "dev" ]
+    branches: [ "master-patch" ]
   schedule:
     - cron: '33 21 * * 6'
 
