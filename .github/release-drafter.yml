@@ -34,9 +34,6 @@ autolabeler:
     title: 
       - '/workflow/'
 
-
-  
-
 change-template: '- $TITLE @$AUTHOR (#$NUMBER)'
 change-title-escapes: '\<*_&' 
 
