@@ -1,5 +1,5 @@
 ![Header Image][header]
-
+> First things first. This is a WIP rework of [StiebAPI][stiebapi]. This rework aims to be more efficient, with other data structures, better bootstrap-usage, more modern python etc. For a working project pls refer to StiebAPI.
 
 ## For Quick Access: External Library Documentation Links
 
