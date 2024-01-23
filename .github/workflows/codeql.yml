@@ -12,10 +12,12 @@
 name: "CodeQL"
 
 on:
-  push:
-    branches: [ "master", "master-patch" ]
   pull_request:
-    branches: [ "master-patch" ]
+    branches: ["master-patch", "master"]
+    paths-ignore: ["development/**"]
+  push:
+    branches: ["master"]
+    paths-ignore: ["development/**"]
   schedule:
     - cron: '37 19 * * 6'
 
