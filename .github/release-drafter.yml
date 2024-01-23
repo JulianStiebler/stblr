@@ -25,7 +25,7 @@ autolabeler:
     title: 
       - '/bug/'
       - '/bugfix/'
-  - label: 'dependency/'
+  - label: 'dependency'
     body: 
       - '/dependency/'
     title: 
