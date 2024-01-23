@@ -80,6 +80,17 @@ Good to use practice would be for example
 - [ ] Only run the Flask app in PRODUCTION behind a reverse proxy like nginx with HTTPS enabled!!!!!!!!!!!!!!!!!
 - [ ] [Use OWASP ZAP](https://www.zaproxy.org/) (Penetration Testing) - [OWASP Top10 Vulnerabilities](https://owasp.org/Top10/)
 
+## This is how the main-project looked like.
+![Preview Image 1][previmg1]
+![Preview Image 2][previmg2]
+![Preview Image 3][previmg3]
+![Preview Image 4][previmg4]
+
+## This is how the main-project looked like
+![Preview Image 1][previmg1]
+![Preview Image 2][previmg2]
+![Preview Image 3][previmg3]
+![Preview Image 4][previmg4]
 
 ## This is how the main-project looked like
 ![Preview Image 1][previmg1]

@@ -1,2 +1,2 @@
-static/** linguist-vendored
-templates/** linguist-vendored
+flaskapp/static/** linguist-vendored
+flaskapp/templates/** linguist-vendored
