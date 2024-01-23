@@ -35,10 +35,10 @@ def routes_login():
     form = forms_login()
     if form.validate_on_submit():
         if form.email.data == "123@test.com" and form.password.data == "123":
-            flash(f'You have been logged in!', 'success')
+            flash(f'{form.username.data} have been logged in!', 'success')
             return redirect(url_for('routes_home'))
         else:
-            flash(f'Login failed.', 'danger')
+            flash('Login failed.', 'danger')
     return render_template('login.html', title='Register', form=form)
 
 
