@@ -1,10 +1,3 @@
-<<<<<<< master-patch
-# <h1 align="center">stblr - featured by Bootstrap</h1>
-
-> First things first, this is a WIP rework of [StiebAPI][stiebapi]. I aim to produce a cleaner codebase without many inline-style manipulations, rather clean .css styling, with nicer GitHub Integration & Actions, and a general cleaner and better documented code. 
-
-=======
->>>>>>> master
 ![Header Image][header]
 > First things first. This is a WIP rework of [StiebAPI][stiebapi]. This rework aims to be more efficient, with other data structures, better bootstrap-usage, more modern python etc. For a working project pls refer to StiebAPI.
 
