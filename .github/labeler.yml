@@ -28,6 +28,7 @@ comments:
 labels:
   'bug':
     - '\bbug\b'
+    - '\bbugfix\b'
   'dependency':
     - '\bdependency\b'
   'feature':
