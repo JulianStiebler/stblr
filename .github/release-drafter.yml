@@ -4,7 +4,7 @@ categories:
   - title: '🚀 Added Features'
     collapse-after: 2
     label: 'feature'
-  - title: '🔑 Better Security'
+  - title: '🔑 Security Additions'
     collapse-after: 2
     label: 'security'
   - title: '🐛 Bug Fixes'
@@ -13,40 +13,49 @@ categories:
   - title: '🐢 Optimization'
     collapse-after: 2
     label: 'optimization'
-  - title: '🧰 Dependency Changes'
+  - title: '🧰 from Dependency import Changes'
     collapse-after: 2
     label: 'dependency'
   - title: '⚡ Workflow Changes'
     collapse-after: 2
     label: 'workflow'
-  - title: '📝 Documentation Changes'
+  - title: '📝 # Documentation Changes'
     collapse-after: 2
     label: 'documentation'
+  - title: '⚡ Changes made to the Data-handling'
+    collapse-after: 2
+    label: 'workflow'
 
 autolabeler:
   # Label: Feature -------------------------
   - label: 'feature'
     body: 
       - '/feature/'
+      - '/Feature/'
     title: 
       - '/feature/'
+      - '/Feature/'
 
   # Label: Security -------------------------
   - label: 'security'
     body: 
       - '/security/'
+      - '/Security/'
       - '/CVE/'
     title: 
       - '/security/'
+      - '/Security/'
       - '/CVE/'
 
   # Label: Bug -------------------------
   - label: 'bug'
     body: 
       - '/bug/'
+      - '/Bug/'
       - '/bugfix/'
     title: 
       - '/bug/'
+      - '/Bug/'
       - '/bugfix/'
       - '/error/'
 
@@ -63,9 +72,11 @@ autolabeler:
   - label: 'dependency'
     body: 
       - '/dependency/'
+      - '/Dependency/'
       - '/dependabot/'
     title: 
       - '/dependency'
+      - '/Dependency/'
       - '/dependabot/'
       - '/bump'
 
@@ -73,19 +84,34 @@ autolabeler:
   - label: 'workflow'
     body: 
       - '/workflow/'
+      - '/Workflow/'
       - '/yaml/'
     title: 
       - '/workflow/'
+      - '/Workflow/'
       - '/yaml/'
 
   # Label: Documentation -------------------------
   - label: 'documentation'
     body: 
       - '/documentation/'
+      - '/Documentation/'
       - '/.md/'
     title: 
       - '/documentation/'
+      - '/Documentation/'
       - '/.md/'
+
+  # Label: Database -------------------------
+  - label: 'database'
+    body: 
+      - '/database/'
+      - '/Database/'
+      - '/.db/'
+    title: 
+      - '/database/'
+      - '/Database/'
+      - '/.db/'
 
 change-template: '- $TITLE @$AUTHOR (#$NUMBER)'
 change-title-escapes: '\<*_&' 

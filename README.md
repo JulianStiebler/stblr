@@ -1,9 +1,12 @@
+<<<<<<< master-patch
 # <h1 align="center">stblr - featured by Bootstrap</h1>
 
 > First things first, this is a WIP rework of [StiebAPI][stiebapi]. I aim to produce a cleaner codebase without many inline-style manipulations, rather clean .css styling, with nicer GitHub Integration & Actions, and a general cleaner and better documented code. 
 
+=======
+>>>>>>> master
 ![Header Image][header]
-
+> First things first. This is a WIP rework of [StiebAPI][stiebapi]. This rework aims to be more efficient, with other data structures, better bootstrap-usage, more modern python etc. For a working project pls refer to StiebAPI.
 
 ## For Quick Access: External Library Documentation Links
 
@@ -85,6 +88,12 @@ Good to use practice would be for example
 - [ ] [Use OWASP ZAP](https://www.zaproxy.org/) (Penetration Testing) - [OWASP Top10 Vulnerabilities](https://owasp.org/Top10/)
 
 ## This is how the main-project looked like.
+![Preview Image 1][previmg1]
+![Preview Image 2][previmg2]
+![Preview Image 3][previmg3]
+![Preview Image 4][previmg4]
+
+## This is how the main-project looked like
 ![Preview Image 1][previmg1]
 ![Preview Image 2][previmg2]
 ![Preview Image 3][previmg3]
