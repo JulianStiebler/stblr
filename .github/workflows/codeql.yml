@@ -15,9 +15,6 @@ on:
   pull_request:
     branches: ["master-patch", "master"]
     paths-ignore: ["development/**"]
-  push:
-    branches: ["master"]
-    paths-ignore: ["development/**"]
   schedule:
     - cron: '37 19 * * 6'
 
