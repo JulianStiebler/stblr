@@ -11,18 +11,28 @@ categories:
     label: 'workflow'
 
 autolabeler:
-  - label: ['feature']
-    body: ['/feature/']
-    title: ['/feature/']
+  - label: 'feature'
+    body: 
+      - '/feature/'
+    title: 
+      - '/feature/'
   - label: 'bug'
-    body: ['/bug/', '/bugfix/']
-    title: ['/bug/', '/bugfix/']
-  - label: ['/dependency/']
-    body: ['/dependency/']
-    title: ['/feature/']
-  - label: ['workflow']
-    body: ['/workflow/']
-    title: ['/workflow/']
+    body: 
+      - '/bug/'
+      - '/bugfix/'
+    title: 
+      - '/bug/'
+      - '/bugfix/'
+  - label: 'dependency/'
+    body: 
+      - '/dependency/'
+    title: 
+      - '/dependency'
+  - label: 'workflow'
+    body: 
+      - '/workflow/'
+    title: 
+      - '/workflow/'
 
 
   
