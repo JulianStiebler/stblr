@@ -9,13 +9,12 @@
 name: OSSAR
 
 on:
-  push:
-    branches: [ "master", "master-patch" ]
   pull_request:
-    # The branches below must be a subset of the branches above
-    branches: [ "master-patch" ]
-  schedule:
-    - cron: '21 5 * * 4'
+    branches: ["master-patch", "master"]
+    paths-ignore: ["development/**"]
+  push:
+    branches: ["master"]
+    paths-ignore: ["development/**"]
 
 permissions:
   contents: read
