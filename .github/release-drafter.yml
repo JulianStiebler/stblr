@@ -29,7 +29,7 @@ autolabeler:
     body: 
       - '/dependency/'
     title: 
-      - '/dependency'
+      - '/dependency/'
   - label: 'workflow'
     body: 
       - '/workflow/'
