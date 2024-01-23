@@ -14,14 +14,26 @@ change-template: '- $TITLE @$AUTHOR (#$NUMBER)'
 change-title-escapes: '\<*_&' 
 
 autolabeler:
-  - label: 'bug'
-    title: 'bug'
   - label: 'feature'
-    title: 'feature'
+    body:
+      - '/feature/'
+    title:
+      - '/feature/'
+  - label: 'bug'
+    body:
+      - '/bug/'
+    title:
+      - '/bug/'
   - label: 'dependency'
-    title: 'dependency'
+    body:
+      - '/dependency/'
+    title:
+      - '/dependency/'
   - label: 'workflow'
-    title: 'workflow'
+    body:
+      - '/workflow/'
+    title:
+      - '/workflow/'
 
 template: |
   ## Changes
