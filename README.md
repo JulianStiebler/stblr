@@ -1,5 +1,3 @@
-<h1 align="center">stblr - featured by Bootstrap</h1>
-
 ![Header Image][header]
 
 
