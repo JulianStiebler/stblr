@@ -12,8 +12,7 @@ class forms_register(FlaskForm):
     password = PasswordField('Password', validators=[DataRequired()])
     confirm_password = PasswordField('Confirm Password', 
                         validators=[DataRequired(), EqualTo('password')])
-    forname = StringField('Forname')
-    surname = StringField('Surname')
+    accepttos = BooleanField('', validators=[DataRequired()])
     submit = SubmitField('Sign up')
 
     """
