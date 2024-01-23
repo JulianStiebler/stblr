@@ -1,7 +1,7 @@
-from flask import Flask, render_template, flash, redirect, url_for
-from forms import forms_register, forms_login
-app = Flask(__name__)
-app.config['SECRET_KEY'] = "e362cde6f381bffb1fb76bc762cc6717"
+from flask import render_template, url_for, flash, redirect
+from flaskapp import app
+from flaskapp.forms import forms_register, forms_login
+from flaskapp.models import User, Post
 
 posts = [
     {
@@ -40,8 +40,3 @@ def routes_login():
         else:
             flash('Login failed.', 'danger')
     return render_template('login.html', title='Register', form=form)
-
-
-
-if __name__ == '__main__':
-    app.run(debug=True)
